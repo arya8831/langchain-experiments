@@ -52,7 +52,7 @@ print(wrapped_text)
 # Load a video transcript from YouTube
 # --------------------------------------------------------------
 
-video_url = "https://www.youtube.com/watch?v=riXpu1tHzl0"
+'''video_url = "https://www.youtube.com/watch?v=riXpu1tHzl0"
 loader = YoutubeLoader.from_youtube_url(video_url)
 transcript = loader.load()
 
@@ -91,4 +91,4 @@ output_summary = chain.run(docs)
 wrapped_text = textwrap.fill(
     output_summary, width=100, break_long_words=False, replace_whitespace=False
 )
-print(wrapped_text)
+print(wrapped_text)'''
